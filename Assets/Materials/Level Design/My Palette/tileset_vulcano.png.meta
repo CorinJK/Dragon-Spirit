@@ -1,0 +1,1844 @@
+fileFormatVersion: 2
+guid: 8f398c2e740c32547a85c08d72b74b60
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_vulcano_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: 32}
+        - {x: -20, y: -3}
+        - {x: -22, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd180dc9895ce344986a12ae68478369
+      internalID: 45919698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_1
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 530
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 17, y: 8}
+        - {x: 32, y: 16}
+        - {x: 32, y: 32}
+        - {x: -32, y: 32}
+        - {x: -32, y: 16}
+        - {x: -17, y: 8}
+        - {x: -17, y: -12}
+        - {x: -32, y: -21}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -21}
+        - {x: 17, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ef327baaf651f4ab5f56fa850a50b8
+      internalID: -1106732177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 530
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: 21}
+        - {x: -17, y: 13}
+        - {x: -17, y: -32}
+        - {x: 17, y: -32}
+        - {x: 17, y: 13}
+        - {x: 32, y: 20}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d186bea9acd12b4d9d60c1c1cd0480c
+      internalID: -203945876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 539
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -18}
+        - {x: -17, y: -32}
+        - {x: 17, y: -32}
+        - {x: 32, y: -18}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0283df0d4f74f45987a497a0039278
+      internalID: -124170779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -9}
+        - {x: 32, y: -9}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7874ef78a3e7004aa75a8828573c584
+      internalID: 1618005568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 32}
+        - {x: -16, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b01acbc0e85eb4e934cac23894bdc5
+      internalID: -1939429444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -22, y: 32}
+        - {x: -22, y: -32}
+        - {x: 16, y: -32}
+        - {x: 16, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570f5d42b8afa2540ae25f9fc2184516
+      internalID: -333516090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_7
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 450
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 22, y: 32}
+        - {x: -16, y: 32}
+        - {x: -16, y: -32}
+        - {x: 22, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182b758c82a56b540a5cfadec2211719
+      internalID: 2016193889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b6337da325a6c4f94a1da624d59b00
+      internalID: 1257535951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: adde4257b183b204b837ad800e521eed
+      internalID: 994335622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a8b2fb2a4408743b4422356739453e
+      internalID: 1946175961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d352f1c350159c46b56148dd61ba6fd
+      internalID: 1575619092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_12
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 31, y: -32}
+        - {x: 32, y: -31}
+        - {x: 32, y: 30}
+        - {x: 30, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9065103afb0fff84bbbb86cdb4d1b602
+      internalID: -395771666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_13
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6a024dd472eb94e955ff2369e28d98
+      internalID: -63679201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 274
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25, y: -8}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 25, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a33d95fbc985814d89996537d3f8204
+      internalID: -1114562991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_15
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 25}
+        - {x: 8, y: -25}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9070c18987ce80f44902d96bf73a5898
+      internalID: -1594746906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: -8, y: -25}
+        - {x: -8, y: 25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed88aba5c41140343b396d379a5f51d2
+      internalID: 268110676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_17
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -25, y: 8}
+        - {x: 25, y: 8}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aeff7993bbf85c4d9f95c8309688b1b
+      internalID: -1243076098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_18
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6fa3c1323f58e42b044d4867b00610
+      internalID: -1445807535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1116394611ff54e4eb77fd91216afa97
+      internalID: 280162280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 29}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00cd15efc3cbf5439f68e115dabdfaa
+      internalID: 1729266764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 98
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 29}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43415560324b7e4692ff4f60feee7e2
+      internalID: 1592243537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07438b6409e949248bea8359fd71fa6b
+      internalID: 986177767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 19
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff13fc1fd214a64b8ec4c8c9c1316a9
+      internalID: 1589254572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93ed4decf50bd4aa75e76ff2293af5
+      internalID: -443164811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661b248f11f017548a9d50aaf4628e9c
+      internalID: -508456048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19b551a60501e643ac6df48ec05c7fa
+      internalID: -1348048572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 22, y: -32}
+        - {x: 24, y: -31}
+        - {x: 21, y: 2}
+        - {x: 26, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904394cf852b8c442bb09356ab71ca25
+      internalID: 2141571717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -26, y: -32}
+        - {x: -26, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618df7971037ff64d88286f466fc9e86
+      internalID: -1629261472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bc11bcae922aa4ba4da52352345fea
+      internalID: 1828917615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84511e13dc250f341ad1cbf0b507639c
+      internalID: 1492053851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d563594f09a274f811c110f55a5757
+      internalID: 1733855279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 627
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: 26, y: -32}
+        - {x: 26, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddea51a4b1107294d9f6e6f8b8fc59fc
+      internalID: -1046938000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -21, y: 32}
+        - {x: -22, y: 31}
+        - {x: -22, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3135325112f2554e80a358e870d6593
+      internalID: -1676317453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: 32}
+        - {x: -22, y: 30}
+        - {x: -20, y: -21}
+        - {x: 32, y: -23}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca9298477ca0f4597d8d4362f8db6c
+      internalID: 2004368977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670a448f31d62ac468f222953c25dbfb
+      internalID: -86067584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: -31, y: -23}
+        - {x: 31, y: -23}
+        - {x: 32, y: -21}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f8a1ad4b01f1e4d99178498e615eec
+      internalID: -313246798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da09515216bdd343bcc62a47553de46
+      internalID: -297976008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: -31, y: -23}
+        - {x: 31, y: -23}
+        - {x: 32, y: -21}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa70868f16d82e48b8a6c984e130e39
+      internalID: 541373514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e512fd1004e8ae4faed9e57d6ff7ff3
+      internalID: 602983406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: -31, y: -23}
+        - {x: 31, y: -23}
+        - {x: 32, y: -21}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4467a0b00b57b478d31964d79f9fcd
+      internalID: -2087318395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 22, y: -32}
+        - {x: 22, y: 30}
+        - {x: 20, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b92db83b615f040b18152c921af149
+      internalID: -819001216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_42
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 435
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -22}
+        - {x: -31, y: -23}
+        - {x: 19, y: -21}
+        - {x: 20, y: -21}
+        - {x: 22, y: 28}
+        - {x: 21, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1e9f0d5c4a1eb478383d1926af8dab
+      internalID: 1340445819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 499
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960a38b2cef59a34a904b66d7776d3d8
+      internalID: 1615400708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_44
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 603
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1980e6b5bbf249a660ed43d71a730
+      internalID: 970137240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_45
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 0}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3edba0ffed377448875484b29bd3bf
+      internalID: -932572334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_46
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccafe806b22250e478f198779ee95e6e
+      internalID: -338444427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98f128f5800ba3439d7d8c3ca089fa1
+      internalID: 901078015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_48
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3831ded993dc4d243a695e250afac2e7
+      internalID: 1636850625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_49
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 226
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a536f6f51bd7a4e85096fbcba957dd
+      internalID: -1006096752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cf1b856f6a99c4782ad4cb5b377c8f
+      internalID: -1837480928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 290
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+        - {x: -32, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6216e4f574b3ec47beed51581ca0e3b
+      internalID: -160993351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 354
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e152c9cfbba3194a942f95e5f374f45
+      internalID: 1436683311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 11}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b7d24898a6d604a9e02c93364f8b18
+      internalID: -154823464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_54
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 146
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6a861c40f054147ab74bbc1e1aabba
+      internalID: 815417415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31057f48656558a4e88dbdfb77bacae7
+      internalID: -783960656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5245c2ba99c30f544a1867497ca9a092
+      internalID: 542385099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8128b91791edc45925b6fc74dbd50d
+      internalID: 222291636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_58
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 11}
+        - {x: -32, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1047452b55c4a6438b81e30ea01e304
+      internalID: -1149745530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_59
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1a8c5dbc56bd3439438f03e2a41ec9
+      internalID: -548318842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_60
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5caaf75f27cf5346a6dbbb4ce494c5d
+      internalID: -611957746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_61
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 11}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0d47339c20454489ab52fd31b5596d
+      internalID: 1354826234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 18
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 32}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100ee6bb7cc0694b8c416b10ae5a6b7
+      internalID: -1522315661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_63
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 82
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -10}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187038268b0ab5a4798a0569af6352f2
+      internalID: -2113875180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_vulcano_64
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 146
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: -32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655a8a3f1194df240a0759a27e3e727a
+      internalID: -2129716064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tileset_vulcano_0: 45919698
+      tileset_vulcano_1: -1106732177
+      tileset_vulcano_10: 1946175961
+      tileset_vulcano_11: 1575619092
+      tileset_vulcano_12: -395771666
+      tileset_vulcano_13: -63679201
+      tileset_vulcano_14: -1114562991
+      tileset_vulcano_15: -1594746906
+      tileset_vulcano_16: 268110676
+      tileset_vulcano_17: -1243076098
+      tileset_vulcano_18: -1445807535
+      tileset_vulcano_19: 280162280
+      tileset_vulcano_2: -203945876
+      tileset_vulcano_20: 1729266764
+      tileset_vulcano_21: 1592243537
+      tileset_vulcano_22: 986177767
+      tileset_vulcano_23: 1589254572
+      tileset_vulcano_24: -443164811
+      tileset_vulcano_25: -508456048
+      tileset_vulcano_26: -1348048572
+      tileset_vulcano_27: 2141571717
+      tileset_vulcano_28: -1629261472
+      tileset_vulcano_29: 1828917615
+      tileset_vulcano_3: -124170779
+      tileset_vulcano_30: 1492053851
+      tileset_vulcano_31: 1733855279
+      tileset_vulcano_32: -1046938000
+      tileset_vulcano_33: -1676317453
+      tileset_vulcano_34: 2004368977
+      tileset_vulcano_35: -86067584
+      tileset_vulcano_36: -313246798
+      tileset_vulcano_37: -297976008
+      tileset_vulcano_38: 541373514
+      tileset_vulcano_39: 602983406
+      tileset_vulcano_4: 1618005568
+      tileset_vulcano_40: -2087318395
+      tileset_vulcano_41: -819001216
+      tileset_vulcano_42: 1340445819
+      tileset_vulcano_43: 1615400708
+      tileset_vulcano_44: 970137240
+      tileset_vulcano_45: -932572334
+      tileset_vulcano_46: -338444427
+      tileset_vulcano_47: 901078015
+      tileset_vulcano_48: 1636850625
+      tileset_vulcano_49: -1006096752
+      tileset_vulcano_5: -1939429444
+      tileset_vulcano_50: -1837480928
+      tileset_vulcano_51: -160993351
+      tileset_vulcano_52: 1436683311
+      tileset_vulcano_53: -154823464
+      tileset_vulcano_54: 815417415
+      tileset_vulcano_55: -783960656
+      tileset_vulcano_56: 542385099
+      tileset_vulcano_57: 222291636
+      tileset_vulcano_58: -1149745530
+      tileset_vulcano_59: -548318842
+      tileset_vulcano_6: -333516090
+      tileset_vulcano_60: -611957746
+      tileset_vulcano_61: 1354826234
+      tileset_vulcano_62: -1522315661
+      tileset_vulcano_63: -2113875180
+      tileset_vulcano_64: -2129716064
+      tileset_vulcano_7: 2016193889
+      tileset_vulcano_8: 1257535951
+      tileset_vulcano_9: 994335622
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
