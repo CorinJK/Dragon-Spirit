@@ -26,20 +26,20 @@ public class Player : MonoBehaviour
     [SerializeField] private AudioClip jumpSound;
 
     [Header("Particles")]
-    [SerializeField] private SpawnParticle footStep;
+    [SerializeField] private ParticleSystem jumpParticle;
 
     private Rigidbody2D body;
     private Animator anim;
     private BoxCollider2D boxCollider;
-    private float wallJumpCooldown;
     private float horizontalInput;
+    public bool canMove = true;
 
     //public Joystick joystick;       //джостик
     //private bool isClickedJump;   //проверка нажатия кнопки
 
     //public void TaskOnClick()
     //{
-        //isClickedJump = true;
+    //isClickedJump = true;
     //}
 
     private void Awake()
@@ -55,29 +55,30 @@ public class Player : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         //меняет спрайт при движении налево
-        if (horizontalInput > 0f)
+
+        if (horizontalInput > 0f && canMove)
             transform.localScale = Vector3.one;
-        else if (horizontalInput < 0f)
+        else if (horizontalInput < 0f && canMove)
             transform.localScale = new Vector3(-1, 1, 1);
 
         //аниматор
-        anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("run", horizontalInput != 0 && canMove);
         anim.SetBool("grounded", isGrounded());
 
         //прыжок
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canMove)
             Jump();
 
         //регулировка высоты прыжка
-        if (Input.GetKeyDown(KeyCode.Space) && body.velocity.y > 0)
+        if (Input.GetKeyDown(KeyCode.Space) && body.velocity.y > 0 && canMove)
             body.velocity = new Vector2(body.velocity.x, body.velocity.y / 2);
 
-        if (onWall())
+        if (onWall() && canMove)
         {
             body.gravityScale = 0;
             body.velocity = Vector2.zero;
         }
-        else
+        else if (canMove)
         {
             body.gravityScale = 7;
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
@@ -96,6 +97,7 @@ public class Player : MonoBehaviour
     {
         if (coyoteСounter <= 0 && !onWall() && jumpCounter <= 0) return;     //отменяет метод прыжка
         SoundManager.instance.PlaySound(jumpSound);
+        SpawnJumpParticle();
 
         if (onWall())
             WallJump();
@@ -111,7 +113,7 @@ public class Player : MonoBehaviour
                 else
                 {
                     //если есть доп. прыжки, то прыгнуть и уменьшить на 1
-                    if(jumpCounter > 0)
+                    if (jumpCounter > 0)
                     {
                         body.velocity = new Vector2(body.velocity.x, jumpPower);
                         jumpCounter--;
@@ -128,7 +130,6 @@ public class Player : MonoBehaviour
     private void WallJump()
     {
         body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x) * wallJumpX, wallJumpY));
-        wallJumpCooldown = 0;
     }
 
     //проверка на опору
@@ -148,17 +149,11 @@ public class Player : MonoBehaviour
     //может ли игрок атаковать
     public bool canAttack()
     {
-        return !onWall();
+        return !onWall() && canMove;
     }
 
-    public void OnInteract()
+    private void SpawnJumpParticle()
     {
-
-    }
-
-    //партиклы бега
-    public void SpawnFootDust()
-    {
-        footStep.Spawn();
+        jumpParticle.Play();
     }
 }

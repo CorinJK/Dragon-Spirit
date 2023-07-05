@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7588313884189571163}
   - component: {fileID: 7588313884189571165}
-  - component: {fileID: 7588313884189571162}
+  - component: {fileID: 879931441989854380}
   - component: {fileID: 4635688496188464371}
   m_Layer: 0
-  m_Name: FootStep
+  m_Name: JumpParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -1825016141
   m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 876b5f39c3198314db713c776ff5cd44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b03ce7fa29795043a3a0877b203206c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7588313884189571162
+--- !u!95 &879931441989854380
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 7588313884189571164}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bef2ce8b74c0c6b42b1e69a3a250cb6f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0010c2405476d9843bd1261df8b281a2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

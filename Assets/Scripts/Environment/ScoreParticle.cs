@@ -7,6 +7,10 @@ public class ScoreParticle : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Hero")
+        {
+            scoreParticle.gameObject.SetActive(true);
             scoreParticle.Play();
+            Destroy(scoreParticle);
+        }
     }
 }
