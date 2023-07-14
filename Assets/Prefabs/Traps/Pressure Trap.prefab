@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -157234559
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1161533411, guid: 9272d904c5b5f384f90229b544b1836f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -129,6 +129,8 @@ MonoBehaviour:
   activationDelay: 2
   activeTime: 2
   pressureTrapSound: {fileID: 8300000, guid: bd9abe3d9ccc3ff4fa91ae3dcbb19bf4, type: 3}
+  anim: {fileID: 7800301168848626449}
+  spriteRend: {fileID: 7800301168848626451}
 --- !u!95 &7800301168848626449
 Animator:
   serializedVersion: 5

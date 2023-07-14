@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  boxCollider: {fileID: 5274780169502065584}
+  anim: {fileID: 5274780169502065586}
 --- !u!61 &5274780169502065584
 BoxCollider2D:
   m_ObjectHideFlags: 0

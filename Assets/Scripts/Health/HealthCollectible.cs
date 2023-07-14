@@ -9,7 +9,7 @@ public class HealthCollectible : MonoBehaviour
     {
         if (collision.tag == "Hero")
         {
-            SoundManager.instance.PlaySound(pickupSound);
+            SoundControl.instance.PlaySound(pickupSound);
             collision.GetComponent<Health>().AddHealth(healthValue);    //увеличение здоровья
             gameObject.SetActive(false);                                //деактивация
         }

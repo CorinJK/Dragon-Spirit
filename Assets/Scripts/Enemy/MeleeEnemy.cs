@@ -18,15 +18,10 @@ public class MeleeEnemy : MonoBehaviour
     [Header("Attack Sound")]
     [SerializeField] private AudioClip attackSound;
 
-    private Animator anim;
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private EnemyPatrol enemyPatrol;
     private Health playerHealth;
-    private EnemyPatrol enemyPatrol;
-
-    private void Awake()
-    {
-        anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
-    }
 
     //проверка готовности врага к атаке
     private void Update()
@@ -39,7 +34,7 @@ public class MeleeEnemy : MonoBehaviour
             {
                 cooldownTimer = 0;
                 anim.SetTrigger("attack");
-                SoundManager.instance.PlaySound(attackSound);
+                SoundControl.instance.PlaySound(attackSound);
             }
         }
 

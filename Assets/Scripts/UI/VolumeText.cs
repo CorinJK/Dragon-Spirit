@@ -4,13 +4,9 @@ using UnityEngine.UI;
 public class VolumeText : MonoBehaviour
 {
     [SerializeField] private string volumeName;
-    [SerializeField] private string textIntro;
-    private Text txt;
 
-    private void Awake()
-    {
-        txt = GetComponent<Text>();
-    }
+    [Header("Components")]
+    [SerializeField] private Text txt;
 
     private void Update()
     {
@@ -20,6 +16,6 @@ public class VolumeText : MonoBehaviour
     private void UpdateVolume()
     {
         float volumeValue = PlayerPrefs.GetFloat(volumeName) * 100;
-        txt.text = textIntro + volumeValue.ToString();
+        txt.text = volumeValue.ToString();
     }
 }

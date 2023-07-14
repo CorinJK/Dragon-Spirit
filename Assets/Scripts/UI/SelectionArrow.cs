@@ -29,7 +29,7 @@ public class SelectedArrow : MonoBehaviour
 
     private void Interact()
     {
-        SoundManager.instance.PlaySound(interactSound);
+        SoundControl.instance.PlaySound(interactSound);
 
         //получить доступ к каждой кнопке и вызвать функцию
         options[currentPosition].GetComponent<Button>().onClick.Invoke();
@@ -40,7 +40,7 @@ public class SelectedArrow : MonoBehaviour
         currentPosition += _change;
 
         if (_change != 0)
-            SoundManager.instance.PlaySound(changeSound);
+            SoundControl.instance.PlaySound(changeSound);
 
         //чтобы не выходило за пределы
         if (currentPosition < 0)

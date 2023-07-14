@@ -7,14 +7,9 @@ public class Projectile : MonoBehaviour
     private bool hit;
     private float lifetime;                 //время жизни снаряда
 
-    private BoxCollider2D boxCollider;
-    private Animator anim;
-
-    private void Awake()
-    {
-        anim = GetComponent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
-    }
+    [Header("Components")]
+    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private Animator anim;
 
     private void Update()
     {

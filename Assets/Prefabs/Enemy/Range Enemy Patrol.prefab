@@ -132,7 +132,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -5459463
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 07b4078a26608f64b82bcede9c24bd22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -212,6 +212,8 @@ MonoBehaviour:
   - {fileID: 6805713718855249394}
   deathSound: {fileID: 8300000, guid: c4ead1a85ca77e247abe7ac45a03d968, type: 3}
   hurtSound: {fileID: 8300000, guid: 3c9f2d299996f084da29c5d6f67c7475, type: 3}
+  anim: {fileID: 5528283172639263558}
+  spriteRend: {fileID: 5528283172639263559}
 --- !u!114 &5528283172639263555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +247,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   firballSound: {fileID: 8300000, guid: 97b44e7c13120164197eeb42b70e37a3, type: 3}
+  anim: {fileID: 5528283172639263558}
+  enemyPatrol: {fileID: 6805713718855249394}
 --- !u!114 &6794275207690026819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,6 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  playerHealth: {fileID: 7951269708008143434, guid: 1595ea756c06504479b66b73463b4347, type: 3}
 --- !u!1 &5528283172683476118
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5528283172923370950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0572387, y: -0.5114753, z: 0}
+  m_LocalPosition: {x: 1.0572387, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -363,7 +368,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6805713718855249395}
   - component: {fileID: 6805713718855249394}
-  - component: {fileID: -448508833583079688}
   m_Layer: 6
   m_Name: Range Enemy Patrol
   m_TagString: Enemy
@@ -407,19 +411,6 @@ MonoBehaviour:
   speed: 2
   idleDuration: 1
   anim: {fileID: 5528283172639263558}
---- !u!114 &-448508833583079688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6805713718855249357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d637040187ad6949817b693697f596d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!1 &6805713719595780529
 GameObject:
   m_ObjectHideFlags: 0

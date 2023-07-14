@@ -22,14 +22,9 @@ public class RangedEnemy : MonoBehaviour
     [Header("Fireball Sound")]
     [SerializeField] private AudioClip firballSound;
 
-    private Animator anim;
-    private EnemyPatrol enemyPatrol;
-
-    private void Awake()
-    {
-        anim = GetComponent<Animator>();
-        enemyPatrol = GetComponentInParent<EnemyPatrol>();
-    }
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private EnemyPatrol enemyPatrol;
 
     //проверка готовности врага к атаке
     private void Update()
@@ -52,7 +47,7 @@ public class RangedEnemy : MonoBehaviour
 
     private void RangedAttack()
     {
-        SoundManager.instance.PlaySound(firballSound);
+        SoundControl.instance.PlaySound(firballSound);
         cooldownTimer = 0;
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();

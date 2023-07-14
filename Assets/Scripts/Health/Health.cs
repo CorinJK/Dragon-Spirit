@@ -6,15 +6,13 @@ public class Health : MonoBehaviour
     [Header("Health")]
     [SerializeField] private float startingHealth;      //начальное здоровье
     public float currentHealth { get; private set; }    //текущее здоровье, в скрипт Healthbar
-    private Animator anim;
     private bool dead;
 
     [Header("iFrames")]
     [SerializeField] private float iFramesDuration;     //продолжительность неу€звимости
     [SerializeField] private float numberOfFlashes;     //количество миганий
-    private SpriteRenderer spriteRend;
 
-    [Header("iFrames")]
+    [Header("Invulnerable")]
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;                          //неу€звимость
 
@@ -22,11 +20,13 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
 
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private SpriteRenderer spriteRend;
+
     private void Awake()
     {
         currentHealth = startingHealth;
-        anim = GetComponent<Animator>();
-        spriteRend = GetComponent<SpriteRenderer>();
     }
 
     //нанесение урона
@@ -40,7 +40,7 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             StartCoroutine(Invulnerability());      //запуск коротины
-            SoundManager.instance.PlaySound(hurtSound);
+            SoundControl.instance.PlaySound(hurtSound);
         }
         else
         {
@@ -54,7 +54,7 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
 
                 dead = true;
-                SoundManager.instance.PlaySound(deathSound);
+                SoundControl.instance.PlaySound(deathSound);
             }
         }
     }

@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989658290047218301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5177612, y: 0.09352493, z: 0}
+  m_LocalPosition: {x: -2.63, y: 0.09352493, z: 0}
   m_LocalScale: {x: -1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,8 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 989658290095956022}
   - component: {fileID: 989658290095956023}
-  - component: {fileID: -3673842664527105711}
-  - component: {fileID: 8611242146287181776}
   m_Layer: 6
   m_Name: Enemy Patrol
   m_TagString: Enemy
@@ -86,38 +84,6 @@ MonoBehaviour:
   speed: 2
   idleDuration: 1
   anim: {fileID: 989658291185665690}
---- !u!114 &-3673842664527105711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989658290095955976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c5a15ab440123949a8781d025873b2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 3
-  iFramesDuration: 0
-  numberOfFlashes: 0
-  components:
-  - {fileID: 989658290095956023}
-  deathSound: {fileID: 8300000, guid: abf4cd39400ab164bbbe6bd76ec6b2ac, type: 3}
-  hurtSound: {fileID: 8300000, guid: 6005e5e9d27aaf54a87ac9498abb5b9a, type: 3}
---- !u!114 &8611242146287181776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989658290095955976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d637040187ad6949817b693697f596d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!1 &989658290846450804
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989658290846450804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2522388, y: 0.07852483, z: 0}
+  m_LocalPosition: {x: 2.14, y: 0.07852483, z: 0}
   m_LocalScale: {x: -1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -163,6 +129,7 @@ GameObject:
   - component: {fileID: 989658291185665670}
   - component: {fileID: 989658291185665671}
   - component: {fileID: 989658291185665669}
+  - component: {fileID: 4708333458877141330}
   m_Layer: 6
   m_Name: Demon
   m_TagString: Enemy
@@ -224,7 +191,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -5459463
-  m_SortingLayer: 5
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: aec6ca53d2e5c084da7064200329a33f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -299,9 +266,12 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 0
   numberOfFlashes: 0
-  components: []
+  components:
+  - {fileID: 989658290095956023}
   deathSound: {fileID: 8300000, guid: c4ead1a85ca77e247abe7ac45a03d968, type: 3}
   hurtSound: {fileID: 8300000, guid: 3c9f2d299996f084da29c5d6f67c7475, type: 3}
+  anim: {fileID: 989658291185665690}
+  spriteRend: {fileID: 989658291185665689}
 --- !u!114 &989658291185665669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,3 +293,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   attackSound: {fileID: 8300000, guid: c5a3f39f6334d3e4eb92ce78dd66f888, type: 3}
+  anim: {fileID: 989658291185665690}
+  enemyPatrol: {fileID: 989658290095956023}
+--- !u!114 &4708333458877141330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989658291185665691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d637040187ad6949817b693697f596d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 2
+  playerHealth: {fileID: 7951269708008143434, guid: 1595ea756c06504479b66b73463b4347, type: 3}

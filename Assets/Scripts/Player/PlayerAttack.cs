@@ -7,8 +7,9 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private GameObject[] fireballs;  //массив снарядов
     [SerializeField] private AudioClip fireballSound;
 
-    private Animator anim;
-    private Player playerMovement;
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private Player playerMovement;
     private float cooldownTimer = Mathf.Infinity;   //таймер перезарядки
 
     //private bool isClickedAttack; //проверка нажатия кнопки
@@ -17,12 +18,6 @@ public class PlayerAttack : MonoBehaviour
     //{
         //isClickedAttack = true;
     //}
-
-    private void Awake()
-    {
-        anim = GetComponent<Animator>();
-        playerMovement = GetComponent<Player>();
-    }
 
     private void Update()
     {
@@ -35,7 +30,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
-        SoundManager.instance.PlaySound(fireballSound);
+        SoundControl.instance.PlaySound(fireballSound);
         anim.SetTrigger("attack");
         cooldownTimer = 0;
 

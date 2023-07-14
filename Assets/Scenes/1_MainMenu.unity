@@ -1905,7 +1905,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efce4476fe2c0ee4fb1e83bce29cb700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  player: {fileID: 0}
+  aheadDistance: 0
+  upDistance: 0
+  cameraSpeed: 0
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0

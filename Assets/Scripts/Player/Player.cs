@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -27,10 +28,16 @@ public class Player : MonoBehaviour
 
     [Header("Particles")]
     [SerializeField] private ParticleSystem jumpParticle;
+    [SerializeField] private GameObject slamParticle;
+    [SerializeField] private float slamDownVelocity;
+    [SerializeField] private float damageVelocity;
 
-    private Rigidbody2D body;
-    private Animator anim;
-    private BoxCollider2D boxCollider;
+    [Header("Components")]
+    [SerializeField] private Rigidbody2D body;
+    [SerializeField] private Animator anim;
+    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private Health playerHealth;
+
     private float horizontalInput;
     public bool canMove = true;
 
@@ -41,14 +48,6 @@ public class Player : MonoBehaviour
     //{
     //isClickedJump = true;
     //}
-
-    private void Awake()
-    {
-        //дают ссылки на компоненты из игрового объекта
-        body = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
-    }
 
     private void Update()
     {
@@ -96,7 +95,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
         if (coyoteСounter <= 0 && !onWall() && jumpCounter <= 0) return;     //отменяет метод прыжка
-        SoundManager.instance.PlaySound(jumpSound);
+        SoundControl.instance.PlaySound(jumpSound);
         SpawnJumpParticle();
 
         if (onWall())
@@ -152,8 +151,27 @@ public class Player : MonoBehaviour
         return !onWall() && canMove;
     }
 
+    //партиклы прыжка
     private void SpawnJumpParticle()
     {
         jumpParticle.Play();
+    }
+
+    // Партиклы падения на землю
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.IsInLayer(groundLayer))
+        {
+            var contact = collision.contacts[0];
+            if (contact.relativeVelocity.y >= slamDownVelocity)
+            {
+                slamParticle.SetActive(true);
+            }           
+            // Урон при падении
+            if (contact.relativeVelocity.y >= damageVelocity)
+            {
+                playerHealth.TakeDamage(1);
+            }
+        }
     }
 }

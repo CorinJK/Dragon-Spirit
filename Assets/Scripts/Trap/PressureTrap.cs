@@ -8,22 +8,18 @@ public class PressureTrap : MonoBehaviour
     [Header("Pressure Trap")]
     [SerializeField] private float activationDelay;     //время после нажатия до активации
     [SerializeField] private float activeTime;          //как долго будет активна
-    private Animator anim;
-    private SpriteRenderer spriteRend;
 
     [Header("SFX")]
     [SerializeField] private AudioClip pressureTrapSound;
+
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private SpriteRenderer spriteRend;
 
     private bool triggered;     //ловушка запустилась
     private bool active;        //ловушка активировалась и наносит урон
 
     private Health playerHealth;
-
-    private void Awake()
-    {
-        anim = GetComponent<Animator>();
-        spriteRend = GetComponent<SpriteRenderer>();
-    }
 
     //чтобы урон проходил когда игрок не двигается на объекте
     private void Update()
@@ -64,7 +60,7 @@ public class PressureTrap : MonoBehaviour
 
         //ждать задержку, активация, анимация, вернуть в обычный цвет
         yield return new WaitForSeconds(activationDelay);
-        SoundManager.instance.PlaySound(pressureTrapSound);
+        SoundControl.instance.PlaySound(pressureTrapSound);
         spriteRend.color = Color.white;
         active = true;
         anim.SetBool("activated", true);

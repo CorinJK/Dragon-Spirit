@@ -5,16 +5,12 @@ public class EnemyProjectile : EnemyDamage  //наносит урон при каждом касании
     [SerializeField] private float speed;       //скорость снаряда
     [SerializeField] private float resetTime;   //время деактивации объекта
     private float livetime;                     //время существования снаряда
-    private Animator anim;
-    private BoxCollider2D boxCollider;
+
+    [Header("Components")]
+    [SerializeField] private Animator anim;
+    [SerializeField] private BoxCollider2D boxCollider;
 
     private bool hit;
-
-    private void Awake()
-    {
-        anim = GetComponentInParent<Animator>();
-        boxCollider = GetComponent<BoxCollider2D>();
-    }
 
     //активация снаряда
     public void ActivateProjectile()
