@@ -4,8 +4,6 @@ using UnityEngine.UI;
 public class VolumeText : MonoBehaviour
 {
     [SerializeField] private string volumeName;
-
-    [Header("Components")]
     [SerializeField] private Text txt;
 
     private void Update()

@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIControl : MonoBehaviour
+public class UIController : MonoBehaviour
 {
     [Header("Game Over")]
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private AudioClip gameOverSound;
+    private float resetScore = 0;
 
     [Header("Pause")]
     [SerializeField] private GameObject pauseScreen;
@@ -21,7 +22,7 @@ public class UIControl : MonoBehaviour
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
-        SoundControl.instance.PlaySound(gameOverSound);
+        SoundController.instance.PlaySound(gameOverSound);
         //resetScore = PlayerPrefs.GetFloat("score");
     }
 
@@ -60,12 +61,12 @@ public class UIControl : MonoBehaviour
 
     public void SoundVolume()
     {
-        SoundControl.instance.ChangeSoundVolume(0.2f);
+        SoundController.instance.ChangeSoundVolume(0.2f);
     }
 
     public void MusicVolume()
     {
-        SoundControl.instance.ChangeMusicVolume(0.2f);
+        SoundController.instance.ChangeMusicVolume(0.2f);
     }
     #endregion
 }

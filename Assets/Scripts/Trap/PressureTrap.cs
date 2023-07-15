@@ -15,7 +15,7 @@ public class PressureTrap : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer spriteRend;
-
+    
     private bool triggered;     //ловушка запустилась
     private bool active;        //ловушка активировалась и наносит урон
 
@@ -60,7 +60,7 @@ public class PressureTrap : MonoBehaviour
 
         //ждать задержку, активация, анимация, вернуть в обычный цвет
         yield return new WaitForSeconds(activationDelay);
-        SoundControl.instance.PlaySound(pressureTrapSound);
+        SoundController.instance.PlaySound(pressureTrapSound);
         spriteRend.color = Color.white;
         active = true;
         anim.SetBool("activated", true);

@@ -11,7 +11,7 @@ public class Finish : MonoBehaviour
     {
         if (collision.tag == "Hero" && !levelCompleted)
         {
-            SoundControl.instance.PlaySound(finishSound);
+            SoundController.instance.PlaySound(finishSound);
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);                    //обождать перед запуском
         }

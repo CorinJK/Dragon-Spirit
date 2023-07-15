@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class SoundControl : MonoBehaviour
+public class SoundController : MonoBehaviour
 {
-    public static SoundControl instance { get; private set; }
+    public static SoundController instance { get; private set; }
     private AudioSource soundSourse;
     private AudioSource musicSourse;
 

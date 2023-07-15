@@ -228,7 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCooldown: 1
   range: 5
-  damage: 0
+  damage: 1
   firePoint: {fileID: 5528283172683476119}
   fireballs:
   - {fileID: 261965379499500319}
@@ -262,7 +262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  playerHealth: {fileID: 7951269708008143434, guid: 1595ea756c06504479b66b73463b4347, type: 3}
 --- !u!1 &5528283172683476118
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5528283172923370950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0572387, y: 0, z: 0}
+  m_LocalPosition: {x: 1.0572387, y: -0.5114753, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -351,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6805713718767714232}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5177612, y: 0.09352493, z: 0}
+  m_LocalPosition: {x: -4.09, y: -0.5, z: 0}
   m_LocalScale: {x: -1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -435,7 +434,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6805713719595780529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2522388, y: 0.07852483, z: 0}
+  m_LocalPosition: {x: 2.3, y: -0.5, z: 0}
   m_LocalScale: {x: -1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

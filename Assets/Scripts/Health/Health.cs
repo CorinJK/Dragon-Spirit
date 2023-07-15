@@ -40,7 +40,7 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             StartCoroutine(Invulnerability());      //запуск коротины
-            SoundControl.instance.PlaySound(hurtSound);
+            SoundController.instance.PlaySound(hurtSound);
         }
         else
         {
@@ -54,7 +54,7 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
 
                 dead = true;
-                SoundControl.instance.PlaySound(deathSound);
+                SoundController.instance.PlaySound(deathSound);
             }
         }
     }

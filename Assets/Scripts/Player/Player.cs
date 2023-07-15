@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -95,7 +94,7 @@ public class Player : MonoBehaviour
     private void Jump()
     {
         if (coyoteСounter <= 0 && !onWall() && jumpCounter <= 0) return;     //отменяет метод прыжка
-        SoundControl.instance.PlaySound(jumpSound);
+        SoundController.instance.PlaySound(jumpSound);
         SpawnJumpParticle();
 
         if (onWall())
@@ -151,13 +150,13 @@ public class Player : MonoBehaviour
         return !onWall() && canMove;
     }
 
-    //партиклы прыжка
+    // Партиклы при прыжке
     private void SpawnJumpParticle()
     {
         jumpParticle.Play();
     }
 
-    // Партиклы падения на землю
+    // Урон от падения
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.IsInLayer(groundLayer))
@@ -166,8 +165,8 @@ public class Player : MonoBehaviour
             if (contact.relativeVelocity.y >= slamDownVelocity)
             {
                 slamParticle.SetActive(true);
-            }           
-            // Урон при падении
+            }
+
             if (contact.relativeVelocity.y >= damageVelocity)
             {
                 playerHealth.TakeDamage(1);

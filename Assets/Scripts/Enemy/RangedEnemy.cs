@@ -47,7 +47,7 @@ public class RangedEnemy : MonoBehaviour
 
     private void RangedAttack()
     {
-        SoundControl.instance.PlaySound(firballSound);
+        SoundController.instance.PlaySound(firballSound);
         cooldownTimer = 0;
         fireballs[FindFireball()].transform.position = firePoint.position;
         fireballs[FindFireball()].GetComponent<EnemyProjectile>().ActivateProjectile();

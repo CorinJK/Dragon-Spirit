@@ -7,11 +7,11 @@ public class PlayerRespawn : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Health playerHealth;
-    private UIControl uiManager;
+    private UIController uiController;
 
     private void Awake()
     {
-        uiManager = FindObjectOfType<UIControl>();
+        uiController = FindObjectOfType<UIController>();
     }
 
     public void CheckRespawn()
@@ -21,13 +21,16 @@ public class PlayerRespawn : MonoBehaviour
         {
             //показать окно окончани€ игры
             PlayerData.Coins = 0;
-            uiManager.GameOver();
+            uiController.GameOver();
 
             return;
         }
 
         transform.position = currentCheckpoint.position;        //переместить игрока на чекпоинт
         playerHealth.Respawn();                                 //восстановить здоровье, анимацию и неу€звимость
+
+        //переместить камеру в чекпоинт (должен быть дочерним элементом)
+        //Camera.main.GetComponent<CameraControl>().MoveToNewRoom(currentCheckpoint.parent);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,7 +38,7 @@ public class PlayerRespawn : MonoBehaviour
         if (collision.transform.tag == "Checkpoint")
         {
             currentCheckpoint = collision.transform;                     //сохранить текущую точку как контрольную
-            SoundControl.instance.PlaySound(checkpointSound);
+            SoundController.instance.PlaySound(checkpointSound);
             collision.GetComponent<Collider2D>().enabled = false;          //выключить коллайдер чекпоинта
             collision.GetComponent<Animator>().SetTrigger("appear");     //активировать анимацию
         }

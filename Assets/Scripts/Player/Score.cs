@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public float score { get; private set; }
+    private float score;
     [SerializeField] Text scoreText;
     [SerializeField] private AudioClip scoreSound;
 
@@ -17,7 +17,7 @@ public class Score : MonoBehaviour
         if (collision.gameObject.tag == "Score")
         {
             Destroy(collision.gameObject);
-            SoundControl.instance.PlaySound(scoreSound);
+            SoundController.instance.PlaySound(scoreSound);
 
             score++;
             PlayerData.Coins = score;
